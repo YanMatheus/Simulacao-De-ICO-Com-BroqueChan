@@ -7,16 +7,18 @@ Baixe o repositório
 ```
 npm install
 ```
+```
 npm run ganache
 ```
 abra outro terminal e use
 ```
 npm run http_server
 ```
+
+Para utilizar com interface gráfica
 ```
-
-Acesse`http://localhost:8000` para poder utilizar com a interface
-
+`http://localhost:8000`
+```
 O arquivo `server.js` compila tudo, cria o server e executa
 
 O arquivo `index.js` é o parser para interface gráfica
