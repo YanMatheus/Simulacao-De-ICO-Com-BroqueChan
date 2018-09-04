@@ -4,9 +4,13 @@
 ### Instalação
 
 Baixe o repositório
+
+
+Instale as dependências 
 ```
 npm install
 ```
+Execute o ganache-cli
 ```
 npm run ganache
 ```
@@ -17,7 +21,7 @@ npm run http_server
 
 Para utilizar com interface gráfica
 ```
-`http://localhost:8000`
+http://localhost:8000
 ```
 O arquivo `server.js` compila tudo, cria o server e executa
 
