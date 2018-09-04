@@ -28,7 +28,7 @@ For a much more robust and complete version of this DApp see: https://github.com
 
 ### Tutorial e demonstração
 
-![preview](https://github.com/YanMatheus/Simulacao-De-ICO-Com-BroqueChan/blob/master/guife.gif "tuto")
+![preview](https://github.com/YanMatheus/Simulacao-De-ICO-Com-BroqueChan/blob/master/guife.gif  "css")
 
 
 
