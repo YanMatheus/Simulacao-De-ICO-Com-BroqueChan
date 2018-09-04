@@ -14,7 +14,7 @@ Execute o ganache-cli
 ```
 npm run ganache
 ```
-abra outro terminal e use
+Abra outro terminal e use
 ```
 npm run http_server
 ```
