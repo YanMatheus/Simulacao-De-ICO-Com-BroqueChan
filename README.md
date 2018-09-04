@@ -13,6 +13,7 @@ abra outro terminal e use
 ```
 npm run http_server
 ```
+```
 
 Acesse`http://localhost:8000` para poder utilizar com a interface
 
