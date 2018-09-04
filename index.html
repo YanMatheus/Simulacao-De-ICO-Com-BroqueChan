@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ICO Transference Simulator</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='index.css' rel='stylesheet' type='text/css'>
+</head>
+<body class="container">
+  <h1>Financiadores por ICO em uma Xtartup</h1>
+  <img style="margin-left: 350px; height: 70px; align: center" src="https://steemitimages.com/DQmZMmjHSP4yKzM3V7eFHPBGS21ayahu8aNsvaic34oXu9o/aUSiZ12.png" alt="dogma">
+  <h1 style="font-size: 13px">Financiadores por ICO em uma Xtartup</h1>
+  <div class="tbl-header">
+    <table class="tbl-content">
+      <thead>
+        <tr>
+          <th>User</th>
+          <th>Xtartup Coins</th>
+          <th>Valor arrecadado</th>
+        </tr>
+      </thead>
+    </table>
+    </div>
+    <div class="tbl-content">
+      <table>
+      <tbody>
+        <tr>
+          <td>Irineu</td>
+          <td id="candidate-1"></td>
+          <td id="candidate-1x"></td>
+        </tr>
+        <tr>
+          <td>JC</td>
+          <td id="candidate-2"></td>
+          <td id="candidate-2x"></td>
+        </tr>
+        <tr>
+          <td>Blastoise</td>
+          <td id="candidate-3"></td>
+          <td id="candidate-3x"></td>
+        </tr>
+        <tr>
+          <td>GaloCego</td>
+          <td id="candidate-4"></td>
+          <td id="candidate-4x"></td>
+        </tr>
+        <tr>
+          <td>Jailson</td>
+          <td id="candidate-5"></td>
+          <td id="candidate-5x"></td>
+        </tr>
+        <tr>
+          <td>Ednaldo</td>
+          <td id="candidate-6"></td>
+          <td id="candidate-6x"></td>
+        </tr>
+        <tr>
+          <td>OtacoFedido23</td>
+          <td id="candidate-7"></td>
+          <td id="candidate-7x"></td>
+        </tr>
+        <tr>
+          <td>Oscar</td>
+          <td id="candidate-8"></td>
+          <td id="candidate-8x"></td>
+        </tr>
+        <tr>
+          <td>Alho</td>
+          <td id="candidate-9"></td>
+          <td id="candidate-9x"></td>
+        </tr>
+        <tr>
+          <td>PaulaVrado</td>
+          <td id="candidate-10"></td>
+          <td id="candidate-10x"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <input type="text" id="candidate" placeholder = "   Digite o nome do usuario que deseja transferir a moeda" style=" margin-left: 100px;margin-top:20px;height:50px; width:350px; border-radius: 4px; outline: none; border: none;">
+  <a href="#" onclick="voteForCandidate()" style="background: white;padding: 15px 40px;border-radius: 30px;color: #f5f5f5; text-decoration-color: #ff6a00; color: #ff6a00;">Transferir</a>
+</body></body>
+<script>
+  CONTRACT_ADDRESS = 'REPLACE_WITH_CONTRACT_ADDRESS';
+  ABI_DEFINITION = JSON.parse('REPLACE_WITH_ABI_DEFINITION');
+</script>
+<script src="https://cdn.rawgit.com/ethereum/web3.js/35ae85a5d30500f7df20c47594d529af872ac88a/dist/web3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="./index.js"></script>
+</html>
